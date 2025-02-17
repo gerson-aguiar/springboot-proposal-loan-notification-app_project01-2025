@@ -18,7 +18,7 @@ public class ListenerPending {
         String userName = (proposal.getUser() != null) ? proposal.getUser().getFirstName() : "Unknown User";
         String message = String.format(MessageContants.PROPOSAL_NOTIFICATION_TITLE,  userName);
 
-        String cellPhone = "+5538";
+        String cellPhone = "+5538991085868";
 
         notificationSnsService.sendNotification(cellPhone, message);
     }
